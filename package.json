@@ -13,9 +13,12 @@
     "build-cf-types": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^3.3.0",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "stripe": "^14.24.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.11.0",
@@ -24,6 +27,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "daisyui": "^4.10.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "eslint-plugin-next-on-pages": "^1.11.0",
